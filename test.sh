@@ -8,7 +8,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/nvidia/lib:/usr/local/nv
 source /opt/ros/melodic/setup.bash
 
 # build
-cd /bonnetal/deploy/
+cd ~/bonnetal/deploy/
 pwd
 catkin init
 catkin build
